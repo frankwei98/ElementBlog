@@ -17,18 +17,17 @@
     text-align: center;
 } */
 .el-icon-error {
-    font-size: 10em;
-    color: #FA5555;
+  font-size: 10em;
+  color: #fa5555;
 }
 h1 {
-    font-size: 2em;
+  font-size: 2em;
 }
-#errorBox{
-    float: left;
-    margin-right: 3em;
+#errorBox {
+  float: left;
+  margin-right: 3em;
 }
-#errorMsg{
-    float: right;
+#errorMsg {
+  float: right;
 }
-
 </style>

@@ -1,11 +1,11 @@
 <template>
 <div class="post">
-            <router-link :to="post.url">
+    <router-link :to="post.url">
             <img :src="post.img" alt="" class="titleImage">
               <h1 class="title">
                   {{post.title}} 
               </h1>
-          </router-link>
+    </router-link>
               
 <!-- 
             <div class="postStat">

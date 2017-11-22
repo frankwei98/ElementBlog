@@ -1,10 +1,12 @@
-# element-blog
+# ✏️ element-blog
 
-> A Blog System that built on Modern JavaScript Environment with Webpack, Vue.js and Element-UI.
+> **Warning!** This project is still not Production Ready, please don't use this in production!!!
+
+> ✏️ A Blog System that built on Modern JavaScript Environment with Webpack, Vue.js and Element-UI.
 
 Backend implementation is NEEDED now!
 
-We have serval clues with the backend implementation:
+We have serval clues about the backend implementation:
 
 * Github API with static site hosted in Github Pages
 
@@ -12,9 +14,19 @@ We have serval clues with the backend implementation:
 
 * Built with Ruby Web Framework [midori.rb](https://github.com/midori-rb/midori.rb) 
 
-## API Map
+## Todo List
 
-I have defined serval API that is crucial for a Blog site
+- [ ] Use Vuex for state control
+
+- [ ] Fix Dockerfile's Nginx 404 is not pointing `index.html`
+
+
+## API Map 
+
+We have defined serval API that is crucial for a Blog site
+
+(Possibly More to add in the future)
+
 ```
 GET /post -> return list of the blog posts
 
@@ -22,27 +34,32 @@ GET /post/:id -> return the blog post info of given blog post id (Stadard of ID 
 
 ```
 
-## We can run on docker now!
 
-But still need to improve
+## 📦 Build and 🏃🏃‍♀️ Run Setup
+
+## Front-End Part can run on 🦈 Docker now!
+
+But still need some improvement  🤔
 
 Bugs:
-- [ ] Change 404 page to `index.html` in order to avoid access directly from link get a 404 which match the router in history mode 
+- [ ] Change Docker's Nginx 404 page to `index.html` in order to avoid access directly from link get a 404 which match the router in history mode 
 
-## Build Setup
+Features that might add in future:
+- [ ] Introduce a environment variable that point the backend. (Which have to support CORS, if you don't know what is CORS, Google is your best friend. :) )
+
+### By CLI
 
 ``` bash
 # install dependencies
-npm install
+yarn
 
 # serve with hot reload at localhost:8080
-npm run dev
+yarn run dev
 
 # build for production with minification
-npm run build
+yarn run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
