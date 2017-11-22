@@ -10,7 +10,7 @@ RUN apt-get install yarn
 WORKDIR /app
 COPY . /app/
 EXPOSE 80
-RUN npm
+# RUN npm
 RUN yarn \
     && yarn run build \
     && cp -r dist/* /var/www/html \
