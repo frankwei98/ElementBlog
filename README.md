@@ -1,6 +1,33 @@
 # element-blog
 
-> A Blog System that built on webpack, vue and Element-UI
+> A Blog System that built on Modern JavaScript Environment with Webpack, Vue.js and Element-UI.
+
+Backend implementation is NEEDED now!
+
+We have serval clues with the backend implementation:
+
+* Github API with static site hosted in Github Pages
+
+* Built with Java Web Framework [Spring](https://spring.io)
+
+* Built with Ruby Web Framework [midori.rb](https://github.com/midori-rb/midori.rb) 
+
+## API Map
+
+I have defined serval API that is crucial for a Blog site
+```
+GET /post -> return list of the blog posts
+
+GET /post/:id -> return the blog post info of given blog post id (Stadard of ID is still unknown)
+
+```
+
+## We can run on docker now!
+
+But still need to improve
+
+Bugs:
+- [ ] Change 404 page to `index.html` in order to avoid access directly from link get a 404 which match the router in history mode 
 
 ## Build Setup
 
