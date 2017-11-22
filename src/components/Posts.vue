@@ -33,9 +33,10 @@ export default {
     }
   },
   created () {
-    setTimeout(() => {
-      this.fetchData()
-    }, 3000)
+    // Disable force timeout for debugging
+    // setTimeout(() => {
+    this.fetchData()
+    // }, 3000)
   },
   methods: {
     fetchData: function (page = 1) {

@@ -31,7 +31,10 @@ export default {
     }
   },
   created () {
-    setTimeout(() => this.fetchData(), 500)
+    // Disable force timeout for debugging
+    // setTimeout(() =>
+    this.fetchData()
+    // , 500)
   },
   methods: {
     fetchData: function (id = this.postID) {
