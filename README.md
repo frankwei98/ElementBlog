@@ -46,7 +46,7 @@ POST /api/tag -> return list of the blog posts with the provided tag
 But still need some improvement  🤔
 
 Bugs:
-- [ ] Change Docker's Nginx 404 page to `index.html` in order to avoid access directly from link get a 404 which match the router in history mode 
+- [x] Change Docker's Nginx 404 page to `index.html` in order to avoid access directly from link get a 404 which match the router in history mode 
 
 Features that might add in future:
 - [ ] Introduce a environment variable that point the backend. (Which have to support CORS, if you don't know what is CORS, Google is your best friend. :) )
