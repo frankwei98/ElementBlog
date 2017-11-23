@@ -19,6 +19,7 @@ export default new Router({
       name: 'Post',
       component: Post
     }, {
+      // if paths above are not match, fallback to NotFound
       path: '*',
       name: 'NotFound',
       component: NotFound
