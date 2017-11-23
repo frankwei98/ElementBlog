@@ -7,7 +7,7 @@ import NotFound from '@/components/PageNotFound'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
+  mode: 'history', // need to redirect any 404 to index.html
   routes: [
     {
       path: '/',

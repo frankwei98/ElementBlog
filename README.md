@@ -2,7 +2,7 @@
 
 > **Warning!** This project is still not Production Ready, please don't use this in production!!!
 
-> ✏️ A Blog System that built on Modern JavaScript Environment with Webpack, Vue.js and Element-UI.
+> ✏️ A Blog's Front End that built on Modern JavaScript Environment with Webpack, Vue.js and Element-UI.
 
 Backend implementation is NEEDED now!
 
@@ -28,16 +28,20 @@ We have defined serval API that is crucial for a Blog site
 (Possibly More to add in the future)
 
 ```
-GET /post -> return list of the blog posts
+GET /api/post -> return list of the blog posts
 
-GET /post/:id -> return the blog post info of given blog post id (Stadard of ID is still unknown)
+GET /api/post/:id -> return the blog post info of given blog post id (Stadard of ID is still unknown)
+
+POST /api/tag -> return list of the blog posts with the provided tag
+
+
 
 ```
 
 
 ## 📦 Build and 🏃🏃‍♀️ Run Setup
 
-## Front-End Part can run on 🦈 Docker now!
+### Front-End Part can run on 🦈 Docker now!
 
 But still need some improvement  🤔
 
@@ -56,7 +60,7 @@ yarn
 # serve with hot reload at localhost:8080
 yarn run dev
 
-# build for production with minification
+# build for production to deploy with minification
 yarn run build
 
 ```
