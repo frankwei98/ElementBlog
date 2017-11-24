@@ -1,0 +1,15 @@
+language: node_js
+node_js: stable
+
+dist: trusty
+sudo: false
+cache: yarn
+# S: Build Lifecycle
+install:
+- yarn
+
+branches:
+only:
+- dev
+#before_script:
+# - npm install -g gulp
