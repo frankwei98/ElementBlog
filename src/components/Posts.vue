@@ -40,7 +40,7 @@ export default {
   },
   methods: {
     fetchData: function (page = 1) {
-      const postsUrl = 'http://127.0.0.1:8080/post' // test for ruby sinatra
+      const postsUrl = 'http://127.0.0.1:8080/api/post' // test for ruby sinatra
       this.$axios
         .get(postsUrl)
         .then(response => {
