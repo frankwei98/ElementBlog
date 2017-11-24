@@ -11,5 +11,3 @@ install:
 branches:
 only:
 - dev
-#before_script:
-# - npm install -g gulp
