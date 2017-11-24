@@ -1,5 +1,7 @@
 # ✏️ element-blog
 
+![Build Status](https://travis-ci.org/frankwei98/ElementBlog.svg?branch=dev)
+
 > **Warning!** This project is still not Production Ready, please don't use this in production!!!
 
 > ✏️ A Blog's Front End that built on Modern JavaScript Environment with Webpack, Vue.js and Element-UI.
