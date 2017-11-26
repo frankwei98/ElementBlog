@@ -1,7 +1,7 @@
 <template>
     <div id="posts">
           <div id="loading" v-if="loadingLock">
-            <CardMask></CardMask>
+            <CardMask/>
           </div>
           <div class="post" 
           v-bind="post" 
@@ -40,9 +40,9 @@ export default {
   },
   methods: {
     fetchData: function (page = 1) {
-      const postsUrl = 'http://127.0.0.1:8080/post' // test for ruby sinatra
+      const postsUrl = 'http://127.0.0.1:8080/api/post' // test for ruby sinatra
       this.$axios
-        .post(postsUrl)
+        .get(postsUrl)
         .then(response => {
           this.posts = response.data
           // console.log(this.posts)

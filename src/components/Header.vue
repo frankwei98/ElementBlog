@@ -43,7 +43,8 @@ export default {
   data () {
     const headerInfo = {
       title: `Frank Wei's Dev Notes`,
-      userAvatar: 'https://ws3.sinaimg.cn/large/006tKfTcgy1flgi1t9yf0j30b40b4jxk.jpg',
+      userAvatar:
+        'https://ws3.sinaimg.cn/large/006tKfTcgy1flgi1t9yf0j30b40b4jxk.jpg',
       navbarItem: {
         文章列表: '/',
         友情链接: '/friends'
@@ -59,34 +60,34 @@ export default {
 
 <style scoped>
 #logo {
-    float: left;
-    height: 60px;
-    line-height: 60px;
-    margin: 0;
-    cursor: pointer;
-    position: relative;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border-bottom: 2px solid transparent;
-    color: #878d99;
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  margin: 0;
+  cursor: pointer;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 2px solid transparent;
+  color: #878d99;
 }
 
 .container {
-    height: 60px;
-    box-sizing: border-box;
+  height: 60px;
+  box-sizing: border-box;
 }
 #blogTitle {
-    font-weight: 400;
-    font-size: 22px;
+  font-weight: 400;
+  font-size: 22px;
 }
 #blogLogo {
-    max-width: 95%;
-    max-height: 95%;
-    border-radius: 100%;
+  max-width: 95%;
+  max-height: 95%;
+  border-radius: 100%;
 }
-li a{
-    display: block;
-    text-decoration: none;
+li a {
+  display: block;
+  text-decoration: none;
 }
 </style>
 

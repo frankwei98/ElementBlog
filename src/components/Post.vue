@@ -38,7 +38,7 @@ export default {
   },
   methods: {
     fetchData: function (id = this.postID) {
-      const getPostAPI = `http://localhost:8080/post/${id}`
+      const getPostAPI = `http://127.0.0.1:8080/api/post/${id}`
       this.$axios
         .get(getPostAPI)
         .then(response => {

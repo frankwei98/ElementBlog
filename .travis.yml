@@ -1,0 +1,16 @@
+language: node_js
+node_js: stable
+
+dist: trusty
+sudo: false
+cache: yarn
+# S: Build Lifecycle
+install:
+- yarn
+
+script:
+- yarn run build
+
+branches:
+only:
+- dev
