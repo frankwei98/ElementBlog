@@ -6,6 +6,8 @@
 
 > ✏️ A Blog's Front End that built on Modern JavaScript Environment with Webpack, Vue.js and Element-UI.
 
+![Development Preview](https://i.loli.net/2017/11/26/5a1a50613cd7f.png)
+
 Backend implementation is NEEDED now!
 
 We have serval clues about the backend implementation:
